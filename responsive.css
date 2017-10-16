@@ -13,7 +13,7 @@
 body {
     background-image: url("images/bg1.jpg");
     background-repeat: repeat;
-    width: 300px;
+    width: 100%;
     }
 	
 ::-webkit-scrollbar {
@@ -58,7 +58,7 @@ img {height: 50%;}
     text-align: center !important;}	
 .smalll p {}
 .banner {
-    width: 320px;
+    width: 100%;
     margin: 0px;
     padding: 0px;
     position: unset;
@@ -67,23 +67,26 @@ img {height: 50%;}
     font-size: 28px;
     padding: 10px;
     font-weight: bold;
-    margin: 6px;
+    margin: 0px;
     float: none;
     text-align: center;
 }
 .banner p {float:left}
 #bio {
     font-size: 16px;
-    width: 320px;
-    text-align: center;
+    width: 100%;
     background: blue;
     position: unset;
-    padding: 12px;
-    margin: -8px -12px;
+    float: none;
+    margin: 0px;
+    border: none;
+    padding: 16px 10px;
     }
 #bio p {
     line-height: 0;
+    text-align: center;
     font-size: 18px;
+    margin: 0px;
     }
 #banner_img {
     display: none;
@@ -92,7 +95,7 @@ img {height: 50%;}
     font-size: 20px;
     border: 0px;
     margin: 7px -1px;
-    width: 320px;
+    width: 100%;
     text-align: center;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
@@ -160,7 +163,7 @@ img {height: 50%;}
     padding:0;
     bottom:0px;
     position: unset;
-    width: 320px;
+    width: 100%;
     height: 88%;
 }
 .innerframe{
