@@ -203,7 +203,8 @@ img {height: 50%;}
     border-width: 13px 13px 0 0;
     border-color: #ffffff transparent transparent transparent;           
 }  
-	.panel {padding: 0px;
+
+.panel {padding: 0px;
     margin: 0px;}
 input:focus{
     outline: none;
