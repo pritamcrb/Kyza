@@ -50,7 +50,7 @@ body {
   background: transparent;
 }
 .typing {width:100%;padding: 10px 10px;}
-#message-box {width:100%;background: #356bc4;bottom: 0px;display: block;margin-bottom: -85px;}
+#message-box {width:100%;background: #356bc4;bottom: 0px;display: block;}
 #message-box:hover {background:#285296; box-shadow: 0 0 5px 1px #969696;}
 img {height: 50%;}
 #dates {margin: 0px !important;
@@ -94,7 +94,6 @@ img {height: 50%;}
 #chat-panel {
     font-size: 20px;
     border: 0px;
-    margin: 7px -1px;
     width: 100%;
     text-align: center;
     border-top-left-radius: 0px;
