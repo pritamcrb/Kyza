@@ -58,33 +58,41 @@ img {height: 50%;}
     text-align: center !important;}	
 .smalll p {}
 .banner {
-    width: 300px;
+    width: 320px;
+    margin: 0px;
+    padding: 0px;
+    position: unset;
 }
 .banner h2 {
-    font-size: 30px;
+    font-size: 28px;
+    padding: 10px;
     font-weight: bold;
+    margin: 6px;
+    float: none;
     text-align: center;
 }
 .banner p {float:left}
 #bio {
     font-size: 16px;
-    border-left: 2px solid grey;
-    width: 307px;
+    width: 320px;
     text-align: center;
     background: blue;
-    padding: 10px;
+    position: unset;
+    padding: 12px;
+    margin: -8px -12px;
     }
-#bio p {line-height: 0;
+#bio p {
+    line-height: 0;
     font-size: 18px;
-    margin: 6px 0px;}
+    }
 #banner_img {
     display: none;
     }
 #chat-panel {
-    padding: 5px;
     font-size: 20px;
     border: 0px;
-    width: 328px;
+    margin: 7px -1px;
+    width: 320px;
     text-align: center;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
@@ -151,12 +159,14 @@ img {height: 50%;}
     overflow:auto;
     padding:0;
     bottom:0px;
-    width: 307px;
+    position: unset;
+    width: 320px;
     height: 88%;
 }
 .innerframe{
-    height: 267px;
     background: black;
+    margin: 0px 0px;
+    padding: 0px;
 }
 .innerframe > div:last-of-type{
     position:absolute;bottom:5px;width:100%;display:flex;
@@ -166,9 +176,9 @@ img {height: 50%;}
     list-style-type: none;
     position:absolute;
     display:flex;
-    flex-direction: column;
+    top: 175px;
+    bottom: 0px;
     overflow-y:scroll;
-    height: 371px;
     background: #d5deed;
 }
 .msj:before{
@@ -193,6 +203,8 @@ img {height: 50%;}
     border-width: 13px 13px 0 0;
     border-color: #ffffff transparent transparent transparent;           
 }  
+	.panel {padding: 0px;
+    margin: 0px;}
 input:focus{
     outline: none;
 }        
@@ -226,4 +238,3 @@ input:focus{
       width:720px;
    }
 }
-
