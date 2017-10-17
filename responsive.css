@@ -1,0 +1,49 @@
+@media screen and (max-width: 500px) {
+    img {
+    height: 50px;
+    width: 50px !important;
+}
+.innerframe {
+    background: #d5deed;
+    width: 100%;
+    height: 90%;
+    margin-bottom: 23%;
+}
+#messages {
+    width: 100%;
+    list-style-type: none;
+    padding: 0px;
+    flex-direction: column;
+    overflow-y: scroll;
+    height: 446px;
+    margin: 0px;
+    background: #d5deed;
+}
+.banner h2 {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0px;
+    text-align: center;
+	float: none;
+}
+#developer_info {
+    text-align: center;
+	float: none;
+	margin: 0px;
+}
+#banner_img {
+    display: none;
+	float: none;
+}
+.info {
+    border: 2px dotted orange;
+    position: absolute;
+    margin: 80px 30px;
+	}
+#bio {
+    float: none;
+    font-size: 10px;
+    text-align: center;
+	}
+.avatar {margin: 0px !important}
+}
