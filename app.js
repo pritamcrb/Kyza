@@ -85,3 +85,9 @@ function queryBot(text) {
                 }
             });
     }
+
+if($(window).width() <= 500){
+  $("#chat-panel").on('click',function(){
+    $(".innerframe").toggle();
+});
+}
